@@ -1,0 +1,18 @@
+.Button {
+  background: violet;
+
+  &:hover, {
+    background: green;
+  }
+  &:focus {
+    background: blue;
+  }
+  &:active {
+    background: red;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}

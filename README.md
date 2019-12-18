@@ -1,5 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Steps
+
+```
+npx create-react-app create-react-app-pseudo-states
+
+npx -p @storybook/cli sb init
+? Do you want to manually choose a Storybook project type to install? Yes
+? Please choose a project type from the following list: > REACT_SCRIPTS
+
+yarn add -D storybook-addon-pseudo-states-react
+
+yarn add -D node-sass
+yarn add -D postcss-pseudo-classes
+```
+
+configure `webpack.config.js` of storybook
+- Replace default modules.scss rule with your own that supports postcss (for pseudo state class generation)
+
+
+add withPseudo decorator to your story 
+- Example `1-Button.stories.js`
+
+Result:
+![Example](example.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
