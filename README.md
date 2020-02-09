@@ -15,12 +15,12 @@ yarn add -D node-sass
 yarn add -D postcss-pseudo-classes
 ```
 
-configure `webpack.config.js` of storybook
+configure `.stroybook/webpack.config.js` of storybook
 - Replace default modules.scss rule with your own that supports postcss (for pseudo state class generation)
 
 
 add withPseudo decorator to your story 
-- Example `1-Button.stories.js`
+- Example `stories/1-Button.stories.js`
 
 Result:
 ![Example](example.png)
