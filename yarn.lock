@@ -14167,9 +14167,10 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.10.0.tgz#46b82bb91878daf1b0d56dec2f1d41e54d5103cf"
   integrity sha512-tWEpK0snS2RPUq1i3R6OahfJNjWCQYNxq0+by1amCSuw0mXtymJpzmZIeYpA1UAa+7B0grCpNYIbDcd7AgTbFg==
 
-"storybook-addon-pseudo-states-react@file:../../storybook-pseudo-states/src/react/storybook-addon-pseudo-states-react-0.0.1-alpha.15.tgz":
-  version "0.0.1-alpha.15"
-  resolved "file:../../storybook-pseudo-states/src/react/storybook-addon-pseudo-states-react-0.0.1-alpha.15.tgz#43a698111b4df874a59adbcb8e5d92b6c5aed17f"
+storybook-addon-pseudo-states-react@0.0.1-alpha.17:
+  version "0.0.1-alpha.17"
+  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states-react/-/storybook-addon-pseudo-states-react-0.0.1-alpha.17.tgz#dffeca52131aa623653195f81a4530ee24bc08b5"
+  integrity sha512-IGP1yivsBSBpyS+tfgjQY3BrxXPIQrJ/dE2ePfvm/h9yKPwOAjyNJk6LKfCom44wwRii8PlChCV/PSMDwib8ag==
 
 storybook-chromatic@^2.2.2:
   version "2.2.2"
