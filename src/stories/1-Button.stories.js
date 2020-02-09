@@ -2,7 +2,7 @@ import React from 'react';
 import {action} from '@storybook/addon-actions';
 import {Button} from '@storybook/react/demo';
 import {withPseudo} from "storybook-addon-pseudo-states-react";
-import {SimpleButton} from "../src/SimpleButton/simple-button";
+import {SimpleButton} from "../SimpleButton/simple-button";
 // import {storiesOf} from "@storybook/react";
 
 
@@ -13,7 +13,7 @@ export default {
     ],
 };
 
-export const simpleButton = () => <SimpleButton label={'ButtonLabel'}></SimpleButton>;
+export const simpleButton = () => <SimpleButton label={'ButtonLabel'}/>;
 
 export const text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
 
