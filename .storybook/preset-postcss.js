@@ -74,9 +74,7 @@ function modifyRules(rule) {
 
 function webpackFinal(webpackConfig = {}, options = {}) {
     webpackConfig.module.rules.map(r => {
-
         modifyRules(r);
-
         return r;
     });
 
