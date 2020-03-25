@@ -1,3 +1,9 @@
+# Storybook Pseudo States Addon React Example with CRA
+
+Example project to present usage of [@ergosign/storybook-addon-pseudo-states-react](https://github.com/Ergosign/storybook-addon-pseudo-states/blob/master/src/react/README.md)
+
+## CRA
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Steps

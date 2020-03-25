@@ -6,6 +6,9 @@
   }
   &:focus {
     background: blue;
+    &:hover {
+      background: #61DAFB;
+    }
   }
   &:active {
     background: red;

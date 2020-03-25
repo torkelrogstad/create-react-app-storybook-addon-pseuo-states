@@ -1,17 +1,17 @@
 import React from 'react';
 import {action} from '@storybook/addon-actions';
 import {Button} from '@storybook/react/demo';
-import {AttributesStatesDefault, withPseudo} from "@ergosign/storybook-addon-pseudo-states-react";
+import {AttributesStatesDefault, PseudoStatesDefault, withPseudo} from "@ergosign/storybook-addon-pseudo-states-react";
 import {SimpleButton} from "../SimpleButton/simple-button";
-
 
 export default {
     title: 'Button',
     decorators: [
         withPseudo
     ],
-    parameters:{
+    parameters: {
         withPseudo: {
+            pseudos: [...PseudoStatesDefault, 'focus & hover'],
             attributes: [...AttributesStatesDefault, 'isBig']
         }
     }
@@ -29,8 +29,6 @@ export const emoji = () => (
     </span>
     </Button>
 );
-
-
 
 /*
 storiesOf('Buttons', module)
