@@ -1,9 +1,8 @@
 import React from 'react';
 import {action} from '@storybook/addon-actions';
 import {Button} from '@storybook/react/demo';
-import {withPseudo} from "storybook-addon-pseudo-states-react";
+import {AttributesStatesDefault, withPseudo} from "@ergosign/storybook-addon-pseudo-states-react";
 import {SimpleButton} from "../SimpleButton/simple-button";
-// import {storiesOf} from "@storybook/react";
 
 
 export default {
@@ -11,6 +10,11 @@ export default {
     decorators: [
         withPseudo
     ],
+    parameters:{
+        withPseudo: {
+            attributes: [...AttributesStatesDefault, 'isBig']
+        }
+    }
 };
 
 export const simpleButton = () => <SimpleButton label={'ButtonLabel'}/>;

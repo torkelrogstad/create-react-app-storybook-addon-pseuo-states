@@ -9,7 +9,7 @@ npx -p @storybook/cli sb init
 ? Do you want to manually choose a Storybook project type to install? Yes
 ? Please choose a project type from the following list: > REACT_SCRIPTS
 
-yarn add -D storybook-addon-pseudo-states-react
+yarn add -D @ergosign/storybook-addon-pseudo-states-react
 
 yarn add -D node-sass
 yarn add -D postcss-pseudo-classes
