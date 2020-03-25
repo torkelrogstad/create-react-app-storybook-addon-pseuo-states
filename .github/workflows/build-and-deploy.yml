@@ -22,8 +22,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install --frozen-lockfile
-    - run: yarn run build-storybook -- -o .out
-    - run: yarn run deploy-storybook -- --ci --existing-output-dir=.out
+    - run: yarn run build-storybook -o .out
+    - run: yarn run deploy-storybook --ci --existing-output-dir=.out
       env:
         CI: true
         GH_TOKEN: philippone:${{ secrets.GH_TOKEN }}
